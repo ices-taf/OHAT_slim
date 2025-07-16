@@ -1,0 +1,18 @@
+# TAF folders
+/boot/data
+/boot/library
+/boot/software
+
+# rstudio files
+*.Rproj
+.Rproj.user
+
+# R junk
+.RData
+.Rhistory
+.Ruserdata
+
+# HAT folders and files
+/log/
+/html/
+*.rds
