@@ -50,10 +50,10 @@ close_logfile <- function() {
 # setup -------------------------------------
 
 # update package
-# taf.boot()
+# taf.boot(software = TRUE, data = FALSE)
 
 # fetch data
-TAF::cp("")
+TAF::taf.boot(software = FALSE, data = TRUE)
 
 # add logging
 sink_to_logfile(series_id, compartment, year)

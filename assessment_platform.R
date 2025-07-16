@@ -9,7 +9,7 @@ source("utilities_and_setup.R")
 # Load the package harsat 1.0.3
 TAF::taf.library(harsat)
 
-assessment <- readRDS(paste0(compartment, ".rds"))
+assessment <- readRDS(file.path("boot/data/assessment_data", paste0(compartment, ".rds")))
 
 harsat::report_assessment(
   assessment,
