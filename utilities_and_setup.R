@@ -46,3 +46,14 @@ close_logfile <- function() {
   TAF::taf.session()
   closeAllConnections()
 }
+
+# setup -------------------------------------
+
+# update package
+# taf.boot()
+
+# fetch data
+TAF::cp("")
+
+# add logging
+sink_to_logfile(series_id, compartment, year)
